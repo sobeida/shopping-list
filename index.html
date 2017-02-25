@@ -1,0 +1,56 @@
+<!DOCUTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" href='css/style.css' type="text/css">
+    <!-- <script src="http://code.jquery.com/jquery.min.js"></script> -->
+    <script src="https://codes.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/shop.js"></script>
+</head>
+
+<body>
+    <header class="title">
+        <h1>Shopping List</h1>
+    </header>
+    <p>Add items and then delete them when you're finished.</p>
+    <br>
+    <br>
+    <section class="content">
+        <div class="input-form">
+            <input type="text" value="" maxlength="20" placeholder="Enter here" id="addItemValue">
+            <button title="submit" id="addItem">Add</button>
+        </div>
+    </section>
+    <section class="shopping-list-container">
+        <ul class="shopping-list">
+            <li class="tick">
+                <button class="checkbox">✓</button>bread
+                <button class="delete">x</button>
+            </li>
+            <li>
+                <button class="checkbox">✓</button>butter
+                <button class="delete">x</button>
+            </li>
+            <li>
+                <button class="checkbox">✓</button>cookies
+                <button class="delete">x</button>
+            </li>
+            <li>
+                <button class="checkbox">✓</button>honey
+                <button class="delete">x</button>
+            </li>
+            <li>
+                <button class="checkbox">✓</button>coffee
+                <button class="delete">x</button>
+            </li>
+        </ul>
+    </section>
+    <section class="clear-section">
+        <button type="reset" onclick="" id="resetButton">Clear List</button>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 500%;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    color: darkslategray;
+    background-color: orange;
+}
+
+p {
+    letter-spacing: 0.0125em;
+    font-size: 1.15rem;
+}
+
+.content {
+    text-align: center;
+}
+
+.shopping-list-container {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shopping-list {
+    list-style: outside none none;
+}
+
+.shopping-list li {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.shopping-list li .delete {
+    float: right;
+    margin-right: 2.8rem;
+}
+
+.shopping-list li .checkbox {
+    margin-right: 1rem;
+    margin-left: 0rem;
+}
+
+.shopping-list .tick {
+    text-decoration: line-through;
+    color: red;
+}
+
+#addItemValue {
+    width: 30%;
+    height: 2.5em;
+    padding-left: 1em;
+    font-size: 1.0em;
+    font-style: italic;
+    background-color: white;
+}
+
+#addItem {
+    width: 3em;
+    height: 3em;
+    padding: inherit;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    border-style: none;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+#resetButton {
+    margin-top: 3em;
+    font-size: 1.125rem;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 20%;
+    height: 2.5em;
+    background-color: gray;
+    border-style: none;
+    border-color: gray;
+}
